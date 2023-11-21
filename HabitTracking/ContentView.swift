@@ -37,7 +37,9 @@ struct ContentView: View {
         NavigationStack {
             List {
                 ForEach($habits.items) { $habit in
-                    Text(habit.title)
+                    NavigationLink(habit.title) {
+                        HabitDetailView(habit: $habit)
+                    }
                 }
                 .onDelete(perform: removeItems)
             }

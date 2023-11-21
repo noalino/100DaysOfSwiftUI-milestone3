@@ -13,6 +13,7 @@
 		50CC687D2B15FC8A00DDCC10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CC687C2B15FC8A00DDCC10 /* Preview Assets.xcassets */; };
 		50CC68842B15FE8400DDCC10 /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC68832B15FE8400DDCC10 /* Habit.swift */; };
 		50CC68862B15FECD00DDCC10 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC68852B15FECD00DDCC10 /* AddHabitView.swift */; };
+		50CC68882B16000800DDCC10 /* HabitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CC68872B16000800DDCC10 /* HabitDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		50CC687C2B15FC8A00DDCC10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		50CC68832B15FE8400DDCC10 /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
 		50CC68852B15FECD00DDCC10 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		50CC68872B16000800DDCC10 /* HabitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				50CC68852B15FECD00DDCC10 /* AddHabitView.swift */,
 				50CC68832B15FE8400DDCC10 /* Habit.swift */,
 				50CC68772B15FC8A00DDCC10 /* ContentView.swift */,
+				50CC68872B16000800DDCC10 /* HabitDetailView.swift */,
 				50CC68792B15FC8A00DDCC10 /* Assets.xcassets */,
 				50CC687B2B15FC8A00DDCC10 /* Preview Content */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				50CC68842B15FE8400DDCC10 /* Habit.swift in Sources */,
+				50CC68882B16000800DDCC10 /* HabitDetailView.swift in Sources */,
 				50CC68862B15FECD00DDCC10 /* AddHabitView.swift in Sources */,
 				50CC68782B15FC8A00DDCC10 /* ContentView.swift in Sources */,
 				50CC68762B15FC8A00DDCC10 /* HabitTrackingApp.swift in Sources */,
